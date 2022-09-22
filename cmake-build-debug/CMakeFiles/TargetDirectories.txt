@@ -1,3 +1,0 @@
-E:/Users/CLionProjects/win-mfc/cmake-build-debug/CMakeFiles/win_mfc.dir
-E:/Users/CLionProjects/win-mfc/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Users/CLionProjects/win-mfc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
