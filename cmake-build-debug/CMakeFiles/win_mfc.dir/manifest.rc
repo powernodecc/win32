@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "E:/Users/CLionProjects/win-mfc/cmake-build-debug/CMakeFiles/win_mfc.dir/embed.manifest"

@@ -1,0 +1,6 @@
+# ninja log v5
+2	600	6855386259896157	CMakeFiles/win_mfc.dir/main.cpp.obj	a544f2de5ca29add
+591	809	6855379214736078	win_mfc.exe	358f50e1de13dcc6
+3	509	6855393783461772	win_mfc.exe	b73792de8ac1e007
+3	897	6855403091964417	CMakeFiles/win_mfc.dir/main.cpp.obj	a544f2de5ca29add
+3	334	6855403644415355	win_mfc.exe	b73792de8ac1e007
