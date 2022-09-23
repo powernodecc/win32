@@ -3,7 +3,8 @@
 #endif
 
 #include "tchar.h"
-#include <windows.h>
+#include <iostream>
+#include <Windows.h>
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
     switch (uMsg) {
@@ -12,6 +13,10 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
             break;
         case WM_DESTROY:
             PostQuitMessage(0);
+            break;
+        case WM_CREATE:
+            break;
+        default:
             break;
     }
     return DefWindowProc(hwnd, uMsg, wParam, lParam);
@@ -25,6 +30,9 @@ int WINAPI wWinMain(IN HINSTANCE hInstance, IN HINSTANCE hPrevInstance, IN LPTST
     wc.lpfnWndProc = WindowProc;
     wc.hInstance = hInstance;
     wc.lpszClassName = CLASS_NAME;
+    wc.cbWndExtra = 0;
+    wc.cbClsExtra = 0;
+    wc.hbrBackground = static_cast<HBRUSH>(GetStockObject(WHITE_BRUSH));
 
     RegisterClass(&wc);
 

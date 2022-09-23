@@ -3,4 +3,7 @@ project(win_mfc)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(win_mfc WIN32 main.cpp)
+add_definitions(-D_AFXDLL)
+set(CMAKE_MFC_FLAG 2)
+
+add_executable(win_mfc WIN32 win32.cpp)
