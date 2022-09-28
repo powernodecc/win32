@@ -34,7 +34,7 @@ int WINAPI WinMain(HINSTANCE hinstance, HINSTANCE preInstance, LPTSTR cmdLine, i
     w.cbClsExtra = 0;
     w.cbWndExtra = 0;
     w.hbrBackground = reinterpret_cast<HBRUSH>(COLOR_WINDOW + 1);
-    w.hCursor = nullptr;
+    w.hCursor = LoadCursor(nullptr,IDC_ARROW);
     w.hIcon = nullptr;
     w.hInstance = hinstance;
     w.lpfnWndProc = WindowProc;
