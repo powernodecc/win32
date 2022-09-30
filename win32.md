@@ -154,18 +154,13 @@
 
     循环控制指令
     loop 标号 ecx = ecx - 1 , ecx != 0 则转移至标号处循环执行
+~~~
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+~~~
+    多字节 字符串 转宽字节 L""
+    wchar_t 宽字节字符声明方式(unicode)  wchar_t *str = L"abc";  wsclen(str);
+    
+    MFC: 
+        ex 扩展函数 
+        afx 全局函数
 ~~~

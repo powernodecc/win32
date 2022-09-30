@@ -1,14 +1,17 @@
-#include <cstdio>
+#ifndef UNICODE
+#define UNICODE
+#endif
+
 #include "Windows.h"
-#include <cstdlib>
+#include <iostream>
 
 int main() {
 
-
-    int i = 39;
-    char str[4];
-    itoa(i,str,10);
-
-    printf("%s\n",str);
+    HWND hwnd = ::FindWindow(nullptr, L"计算器"); // 获取游戏的窗口句柄
+    std::cout << hwnd << std::endl;
+    itoa()
+    if (nullptr == hwnd) {
+        return 1;
+    }
     return 0;
 }
